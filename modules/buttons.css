@@ -1,16 +1,30 @@
 .btn {
-  background-color: var(--colors-dark-gray);
+  background-color: var(--colors-blue);
+  color: var(--colors-wash);
   border: 0;
-  border-radius: 0.25em;
+  border-radius: 0.4em;
   cursor: pointer;
   display: inline-block;
   padding: 0.5em 1.5em;
   outline: 0;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.btn-inv {
+  background-color: var(--colors-wash);
+  color: var(--colors-blue);
 }
 
 .btn-sm {
   padding: 0.25em 0.75em;
+}
+
+.btn-label {
+  font-size: 0.6em;
+  padding: .05em 0.4em;
 }
 
 .btn-lg {

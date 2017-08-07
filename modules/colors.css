@@ -30,6 +30,11 @@
   background-color: var(--colors-cyan);
 }
 
+.bg-dark-green {
+
+  background-color: var(--colors-dark-green);
+}
+
 .bg-black {
   background-color: var(--colors-black);
 }
@@ -64,4 +69,16 @@
 
 .txt-cyan {
   color: var(--colors-cyan);
+}
+
+.txt-dark-green {
+  color: var(--colors-dark-gray);
+}
+
+.txt-white {
+  color: #fff;
+}
+
+.txt-wash {
+  color: var(--colors-wash);
 }

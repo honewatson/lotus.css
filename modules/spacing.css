@@ -1,3 +1,15 @@
+.sm-sm {
+  margin: var(--spacing-sm);
+}
+
+.sm-horiz-sm {
+  margin-left: var(--spacing-sm);
+  margin-right: var(--spacing-sm);
+}
+
+.sm-md {
+  margin: var(--spacing-md);
+}
 .sp-sm {
   padding: var(--spacing-sm);
 }

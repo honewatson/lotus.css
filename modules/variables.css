@@ -1,8 +1,10 @@
 :root {
-  --typography-font: 'Open Sans', sans-serif;
+  --typography-font: 'Source Sans Pro', sans-serif;
   --typography-code: 'Inconsolata', monospace;
-  --typography-size: 1em;
-  --typography-line-height: 1.5em;
+  --typography-size: 1.4em;
+  --typography-weight: 300;
+  --typography-strong: 400;
+  --typography-line-height: 1.6em;
 
   --grid-gutter-size: 1.25em;
 
@@ -12,11 +14,12 @@
   --colors-black: #353535;
   --colors-red: #ff7772;
   --colors-green: #67ba72;
+  --colors-dark-green: #15472e;
   --colors-yellow: #ffdd69;
-  --colors-blue: #70bde6;
+  --colors-blue: #0074e6;
   --colors-magenta: #bf75ff;
   --colors-cyan: #92f9f6;
-  --colors-white: #f0f0f0;
+  --colors-white: #fdfdfd;
 
   --spacing-xs: 0.5em;
   --spacing-sm: 1em;

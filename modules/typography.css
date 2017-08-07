@@ -2,6 +2,7 @@ body {
   background-color: var(--colors-white);
   color: var(--colors-black);
   font-family: var(--typography-font);
+  font-weight: var(--typography-weight);
   font-size: var(--typography-size);
   line-height: var(--typography-line-height);
 }
@@ -10,34 +11,41 @@ code, pre, kbd, samp {
   font-family: var(--typography-code);
 }
 
+code {
+  color: var(--colors-yellow);
+  background: var(--colors-black);
+  display: block;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
   margin: 0;
   margin-bottom: 0.5em;
+  font-weight: var(--typography-strong);
 }
 
 h1, .h1 {
-  font-size: 2em;
+  font-size: 2.4em;
 }
 
 h2, .h2 {
-  font-size: 1.5em;
+  font-size: 2.0em;
 }
 
 h3, .h3 {
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 h4, .h4 {
-  font-size: 1.15em;
+  font-size: 1.6em;
 }
 
 h5, .h5 {
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 h6, .h6 {
-  font-size: 0.75em;
+  font-size: 1.0em;
   text-transform: uppercase;
 }
 
@@ -67,7 +75,7 @@ ol ol ol li {
 }
 
 b, strong {
-  font-weight: 700;
+  font-weight: var(--typography-strong);
 }
 
 small {
