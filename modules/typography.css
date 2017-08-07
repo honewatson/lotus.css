@@ -74,11 +74,12 @@ ol ol ol li {
   list-style-type: lower-roman;
 }
 
-b, strong {
+b, strong, .strong {
   font-weight: var(--typography-strong);
 }
 
-small {
+small, .small {
+
   font-size: 0.8em;
   line-height: 1.2em;
 }
