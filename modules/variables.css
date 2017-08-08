@@ -1,5 +1,6 @@
 :root {
   --typography-font: 'Source Sans Pro', sans-serif;
+  --typography-font-headings: 'Source Sans Pro', san-serif;
   --typography-code: 'Inconsolata', monospace;
   --typography-size: 1.4em;
   --typography-weight: 300;

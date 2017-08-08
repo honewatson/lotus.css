@@ -20,8 +20,10 @@ code {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5em;
   margin: 0;
-  margin-bottom: 0.5em;
+  /*margin-bottom: 0.5em;*/
   font-weight: var(--typography-strong);
+
+  font-family: var(--typography-font-headings);
 }
 
 h1, .h1 {
@@ -60,9 +62,7 @@ blockquote {
 }
 
 hr {
-  border-color: var(--colors-light-gray);
-  border-style: solid;
-  border-width: 0.1em;
+  border: 1px solid var(--colors-light-gray);
   margin: 2em 0;
 }
 
@@ -79,8 +79,12 @@ b, strong, .strong {
 }
 
 small, .small {
-
   font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+.xs {
+  font-size: 0.9em;
   line-height: 1.2em;
 }
 

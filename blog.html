@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <style>
+        .box {
+            box-shadow: 0 -2px 0 0 #509dc6 inset;
+        }
+
+        .box:active {
+            background-color: #60add6;
+            box-shadow: 0 2px 0 0 #509dc6 inset;
+        }
+
+        .test .col, .test .col-sm {
+            line-height: 2em;
+            min-height: 2em;
+            text-align: center;
+        }
+
+        .brand {
+            color: #00f98d;
+            font-size: 6em;
+            line-height: 1em;
+            margin-bottom: 0;
+            text-shadow: 0 -1px 0 #000, 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 33em) {
+            .brand {
+                font-size: 4em;
+            }
+        }
+
+        a {
+            color: #353535;
+            text-decoration: none;
+        }
+
+        .features .row {
+            margin-left: -2em;
+        }
+
+        .features .row .col {
+            padding-left: 2em;
+            padding-bottom: 1em;
+        }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Inconsolata' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="dist/lotus.min.css" type="text/css"/>
+</head>
+
+<body>
+<nav class="sp-xs bg-black">
+    <div class="row txt-wash txt-upper txt-center small">
+        <div class="col c12">
+            <div class="sp-sm fl-left">Hello</div>
+            <div class="sp-sm fl-left">About</div>
+            <div class="sp-sm fl-left">Contact Us</div>
+        </div>
+    </div>
+</nav>
+<header class="sp-sm bg-black">
+    <h1 class="txt-center txt-upper brand">LOTUS</h1>
+</header>
+<main class="row sp-vert-md">
+    <div class="col c2"></div>
+    <div class="col c8">
+        <p class="h4 txt-upper">Articles</p>
+        <div class="sp-vert post">
+            <div class="post-author xs sp-vert-md">
+                <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=50" alt="image" class="author fl-left sp-sm-r" />
+                <span class="xs block sm-horiz-sm">Johnny Watson</span>
+                <span class="xs block txt-dark-gray sm-horiz-sm">21 February 2017</span>
+            </div>
+            <div class="post-content clearfix">
+                <h1 class="h5">First Post</h1>
+                <p>Blah blah blah.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col c2"></div>
+</main>
+
+</body>
+<script type="application/javascript" src="dist/custom.js"></script>
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+</html>

@@ -7,9 +7,18 @@
   margin-right: var(--spacing-sm);
 }
 
+.sp-sm-r {
+  padding-right: var(--spacing-sm);
+}
+
 .sm-md {
   margin: var(--spacing-md);
 }
+
+.sp-xs {
+  padding: var(--spacing-xs);
+}
+
 .sp-sm {
   padding: var(--spacing-sm);
 }
