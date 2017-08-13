@@ -35,8 +35,16 @@
   background-color: var(--colors-dark-green);
 }
 
+.bg-crimson {
+  background-color: var(--colors-crimson);
+}
+
 .bg-black {
   background-color: var(--colors-black);
+}
+
+.txt-black {
+  color: var(--colors-black);
 }
 
 .txt-dark-gray {
@@ -81,4 +89,8 @@
 
 .txt-wash {
   color: var(--colors-wash);
+}
+
+.txt-crimson {
+  color: var(--colors-crimson);
 }
